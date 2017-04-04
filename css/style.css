@@ -7,8 +7,9 @@ img {
             color: #0088cc;
           }
 
-          p:hover {
-            text-decoration: underline;
+          .clickable:hover {
+            text-decoration:underline ;
+            color: green;
           }
           .walrus-showing {
                   display: none;
@@ -20,4 +21,4 @@ img {
 
                    .clickable:hover {
                      text-decoration: underline;
-                   }            
+                   }
