@@ -1,16 +1,12 @@
 $(document).ready(function() {
-       $("button#green").click(function() {
-         $("body").removeClass()
-         $("body").addClass("green-background");
+
+       $("div#click-one").click(function(event) {
+         var whatToSay = "Hello!";
+         alert(whatToSay);
        });
 
-       $("button#yellow").click(function() {
-        $("body").removeClass()
-        $("body").addClass("yellow-background");
-       });
-
-       $("button#red").click(function() {
-         $("body").removeClass()
-         $("body").addClass("red-background");
+       $("div#click-two").click(function(event) {
+         alert(whatToSay);
        });
      });
+   
